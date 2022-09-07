@@ -1,16 +1,5 @@
 export const config = {
-  /**
-   * 公众号配置
-   */
-
-  // 公众号APP_ID 
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
   APP_ID: "wx1e8a764640cc406c",
-
-  // 公众号APP_SECRET 
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
   APP_SECRET: "5c92d29909412027ced0d27a16a1ec82",
 
   /**
@@ -30,18 +19,11 @@ export const config = {
    */
   USERS: [
     {
-      // 想要发送的人的名字
-      name: "0",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "	osH9U6KkrQT9UvPCVeBoFN-DvPFg",
-      // 你想对他发送的模板消息的模板ID
-      useTemplateId: "XN1w7zJRvZ9I911DCSueO8vTDx-h1IcvZp7Xc5cScmM",
-      // 所在省份
+      name: "77",
+      id: "5c92d29909412027ced0d27a16a1ec82",
+      useTemplateId: "FRJPIPP7Yt8YrselfiTUpd35tO6tpWoOjcMNp7L3QnM",
       province: "浙江",
-      // 所在城市
       city: "杭州",
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
     }, 
 ]
   /**
@@ -49,13 +31,13 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
+  CALLBACK_TEMPLATE_ID: "FRJPIPP7Yt8YrselfiTUpd35tO6tpWoOjcMNp7L3QnM",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "77",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "osH9U6NOT6pixm_II_mPEsPHckvo",
     }, 
@@ -120,7 +102,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    //{"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
