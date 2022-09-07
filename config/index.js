@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx1e8a764640cc406c",
 
   // 公众号APP_SECRET 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET:,
+  APP_SECRET: "5c92d29909412027ced0d27a16a1ec82",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -37,9 +37,9 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "XN1w7zJRvZ9I911DCSueO8vTDx-h1IcvZp7Xc5cScmM",
       // 所在省份
-      province: "广东",
+      province: "浙江",
       // 所在城市
-      city: "肇庆",
+      city: "杭州",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -68,9 +68,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "浙江",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "杭州",
 
   /** 重要节日相关 */
 
